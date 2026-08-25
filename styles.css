@@ -1,0 +1,72 @@
+/*
+Filename: Lab4.css
+Author: Ryan
+Created: 25/08/26
+Last Modified: 26/08/26 
+Description: CSS file to Lab4.html
+*/
+
+selector {
+    property1: value1;
+    property2: value2;
+}
+
+h1 {
+    color: purple;
+    font-size: 7mm;
+    font-weight: bold;
+}
+
+h2 {
+    color: teal;
+    font-weight: bold;
+}
+
+table, th, td {
+    
+    border: 1px solid black; 
+    border-collapse: seperate;
+
+}
+
+.special {
+    color: orange;
+
+}
+
+* {
+    font-family: Calibri, sans-serif;
+}
+
+aside, footer { 
+    font-style: italic; 
+ }
+
+#introduction #images{
+    text-align: center;
+}
+
+.introduction .special {
+    color: darkorange;    
+}
+
+.special {
+    font-weight:bold;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.1cm 0.2cm;
+    border: 2px solid #ccc;
+
+}
+
+a {
+    color: black;
+
+
+}
+
+aside:hover {
+    display: none;
+}
