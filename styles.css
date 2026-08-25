@@ -10,7 +10,6 @@ selector {
     property1: value1;
     property2: value2;
 }
-
 h1 {
     color: purple;
     font-size: 7mm;
@@ -69,4 +68,21 @@ a {
 
 aside:hover {
     display: none;
+}
+
+.vl {
+  border-left: 3px solid cadetblue;
+  height: 1800px;
+  position: absolute;
+  padding: 10px 10px;
+  left: 50px;
+  right: 100px;
+}
+
+#images {
+ text-align: center;
+}
+
+.redtext {
+    color:red;
 }
